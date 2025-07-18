@@ -1,12 +1,91 @@
 /* laptop divice */
 
-@media screen and(max-width:1200px) {}
+@media screen and (max-width:1200px) {}
 
 
 /* tablet divice */
 
-@media screen and(max-width:1024) {}
+@media screen and (max-width:1024px) {}
 
 /* mobile divice */
 
-@media screen and (max-width:640) {}
+@media screen and (max-width:640px) {
+
+    main section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+
+
+    .section-description {
+        padding: 0px 20px 20px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+
+
+    .header {
+        background-image: none;
+    }
+
+    .banner-profile-picture {
+        width: 100%;
+
+    }
+
+    .resume-container,
+    .skills-container,
+    .about,
+    .about-item,
+    .about-items,
+    .banner,
+    nav,
+    nav>ul {
+        flex-direction: column;
+        padding: 20px;
+        gap: 5px;
+    }
+
+    .banner {
+        margin: 10px;
+    }
+
+    .about-item {
+        background-color: rgb(217, 215, 250);
+        border-radius: 5px;
+    }
+
+    .resume-column-title {
+        padding-bottom: 10px;
+    }
+
+    .experience-title {
+        padding-bottom: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+
+
+    }
+
+    .footer-column {
+        width: 100%;
+
+    }
+}
+
+.hide {
+    display: none;
+}
